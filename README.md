@@ -1,10 +1,10 @@
-# 🕊️ Measuring Safety Impacts of Political Change in Costa Rica
+# Measuring Safety Impacts of Political Change in Costa Rica
 
 This project performs a **causal inference analysis** to evaluate the effects of a 2022 political event (a new presidential term) on **Costa Rica’s Safety Index**, comparing outcomes with other Central American countries from 2008 to 2024.
 
 ---
 
-## 📊 Key Features
+## Key Features
 
 - **Preprocessing & Normalization**  
   Loaded, cleaned, and normalized safety-related metrics using `MinMaxScaler` for comparability across countries and years.
@@ -27,17 +27,17 @@ This project performs a **causal inference analysis** to evaluate the effects of
 
 ---
 
-## 🔍 Findings
+## Findings
 
 - **DiD Estimate**: +0.05 to +0.08 increase in Costa Rica’s Safety Index post-2022 relative to control group.
 - **Statistical Significance**: Not statistically significant (p ≈ 0.65), suggesting that observed changes may not be fully attributable to the event.
 - **RDD**: Confirmed general trend but limited by short post-treatment time window.
 
-> ℹ️ A higher Safety Index value indicates greater perceived insecurity.
+> A higher Safety Index value indicates greater perceived insecurity.
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 - `data.csv` — Raw dataset
 - `data_scaled.csv` — Normalized dataset (used for modeling)
@@ -46,7 +46,7 @@ This project performs a **causal inference analysis** to evaluate the effects of
 
 ---
 
-## ⚙️ Techniques Used
+## Techniques Used
 
 - **Python Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, `scikit-learn`, `statsmodels`
 - **Causal Inference**:
@@ -57,13 +57,13 @@ This project performs a **causal inference analysis** to evaluate the effects of
 
 ---
 
-## 🗺️ Motivation
+## Motivation
 
 The goal was to assess whether political transitions can measurably impact national safety, using Costa Rica as a case study in the Central American region. This project was completed as part of a university-level course in applied causal inference.
 
 ---
 
-## 📬 Contact
+## Contact
 
 For questions or collaboration opportunities, feel free to reach out via [GitHub Issues](../../issues) or [LinkedIn]([https://www.linkedin.com/in/YOUR-USERNAME](https://www.linkedin.com/in/josequeira/)).
 
